@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+body{
+	font-family: 'Lora', serif;
+
+}
+.wrapper{
+	width: 100%;
+	display: inline-flex;
+	background: #000;
+	height: 70px;
+}
+.bodtitle span{
+  color: yellow;
+  padding-left:  20px;
+  font-weight: 1000;
+}
+.wrapper .logo a{
+  color: #f2f2f2;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.admin-wrapper{
+	display: flex;
+	height:500px;
+}
+.admin-wrapper .left-sidebar{
+	flex: 2;
+	border: 2px solid green;
+	height: 100%;
+	background: green;
+}
+.admin-wrapper .left-sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: aliceblue;
+}
+.admin-wrapper .left-sidebar ul li a{
+	 font-size: 15px;
+	  text-decoration: none;
+    padding: 18px;
+    display: block;
+    color: #fff;
+    border-bottom: 1px solid yellow;
+}
+.admin-wrapper .left-sidebar ul li a:hover{
+    padding: 18px;
+    background: greenyellow;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid green;
+}
+.admin-wrapper .admin-content{
+	flex: 8;
+	height: 100%;
+	overflow-y: scroll;
+	padding: 40px 50px 50px;
+}
+.admin-content .page-title{
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1rem;
+}
+th,td{
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid red;
+}
+.edit{
+	color: green;
+
+}
+.delete{
+	color: red;
+}
+.publish{
+	color: blue;
+}
+.edit:hover,
+.delete:hover,
+.publish:hover{
+	text-decoration: underline;
+}
+form div{
+	margin-bottom: 15px;
+}
+.contentadmin{
+	position: inherit;
+	float: right;
+	color: white;
+	 margin-left: 950px;
+}
+.btn{
+	background: #000;
+}
+
+.error{
+	width: 92%;
+	height: 50px;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a7b658;
+	color: #7fbd3c;
+	background: #f2dede;
+	list-style: none;
+	border-radius: 5px;
+	text-align: left;
+}
+
+
+/* .msg2{
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+  background:#000 ;
+  border: 1px dashed green;
+  width: 50%;
+  text-align: center;
+}
+.msg{
+	width: 100%;
+	height: auto;
+	background: red;
+	list-style: none;
+} */

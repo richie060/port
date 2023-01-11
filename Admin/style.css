@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	/* background: url('../images/images.jpeg'); */
+	background-color:#eaeaea;
+	font-size: 120%;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+.header {
+	font-size: 2.2em;
+	width: 30%;
+	font-weight: 1000;
+	height: 100px;
+	margin: 30px auto 0px;
+	color: #daf204;
+	background: url('../images/homebg2.jpeg') no-repeat; 
+	/* background: #000; */
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form,.content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #B0C4DE;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group{
+	margin: 10px 0px 10px 0px;
+}
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input{
+	height: 30px;
+	width: 93%; 
+ 	padding: 5pox 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	border: none;
+	width: 90px;
+	border-radius: 5px;
+}
+.error{
+	width: 92%;
+	height: auto;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
